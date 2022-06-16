@@ -44,7 +44,8 @@
 								<li><a href="#intro">About</a></li>
 								<li><a href="#work">Research</a></li>
 								<li><a href="files/Cdoo_resume2021 (1).pdf">CV</a></li>
-								<li><a href="#about">Resources</a></li>
+								<li><a href="#outreach">Outreach</a></li>
+								<li><a href="#resources">Resources</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -78,31 +79,36 @@
 								<h2 class="major">Research</h2>
 								I am interested in the intersection of exoplanet instrumentation and science. Detecting exoplanets involves developing cutting-edge instruments and post processing techniques. Here, I wrote a small summary of what exoplanets are, how we can find them, and the importance of good instruments and adaptive optics systems to do so. This page will be updated throughout my Ph.D. years as my thesis project becomes more defined and detailed. Stay tuned! :)
 								<p></p>
-								<h3>Exoplanets</h3>
-								
-							<p> Exoplanets are planets that orbit other stars that are not our Sun. When you look up at the sky during the night, many of those little twinkling stars likely host a planetary system of their own. These exoplanets, or extrasolar planets, can vary in size and properties (such as atmospheric components). One question many scientists want to answer right now is: "could one of these planets harbor life? Could we find an Earth-like planet outside of our solar system?".  </p>
-						    <p> Answering that question is difficult, but possible. Exoplanets are hard to detect. They are much smaller than their host star, and often are quite dim too. There are several methods for detecting exoplanets. The main methods are transit, radial velocity and direct imaging. </p>
-						    
 
-						    <span class="image main"><img src="images/pic02.jpg" alt="" /> <figcaption>Artist Depiction of an Exoplanet. Credits: ESA/Hubble, M. Kornmesser via NASA </figcaption></span>
-						    <h4> Transit Method </h4>
-						    <p>When a planet passes in front of a star, we can see a dip in the star’s light intensity from Earth. This event is called a transit. If that dip is periodic, then it is most likely caused by a planet. If the planet’s radius is big, then the dip is also big, since it is covering more light from the star. If the radius is small, then the dip is small. Big intervals between one transit and another indicate that the planet is far from its star, short intervals indicate that the planet is close to its star. </p>
-						    <span class="image main"><img src="images/pic03.jpg" alt="" /> <figcaption>Demonstrative plot of the Transit Method </figcaption></span>
-						    <h4> Radial Velocity Method </h4>
-						   <p> In the 1990s, scientists started an attempt to find a planet around a Sun-like star. Michel Mayor and Didier Queloz, astrophysicists at the University of Geneve, built a device that could detect how much a planet affected the star’s gravity, called a spectrograph. A spectrograph is a device that can split light into its component wavelengths. Spectrographs can be used to find exoplanets. We often say that a planet is orbiting around a star, but that is not exactly what is happening. The planet is attracted to the star’s gravity, but the opposite also happens. This means that both the planet and the star are orbiting around their common center of mass. A planet can make the star wobble due to its gravitational force. </p>
-						  <p>When we look at a star from Earth, we can detect that wobble by looking at a star’s spectrum. The spectrum of the star is composed by spectral lines: lines that tell us if a wavelength is absorbed or reflected by the star. When the star is moving away from the Earth, light waves leaving the star are “stretched”: we can see that the spectral lines are slightly shifted towards “red” wavelengths. We call that a redshift. When the star is moving towards us, the spectral lines become blueshifted. If that shift is periodic, then it is most likely caused by a planet. By using this concept, Mayor and Queloz built a very precise spectrograph that detected a planet with the mass of Jupiter (1300 times bigger than Earth). </p>
-						  <span class="image main"><img src="images/pic04.jpg" alt="" /> <figcaption>The Radial Velocity Method. Credit: Las Cumbres Observatory via Universe Today. </figcaption></span>
-						    <h4> Direct Imaging Method </h4>
-						    In recent years, a new method has risen into popularity: the direct imaging method. By covering the light from the star using a coronagraph, astronomers look at the light that the planet reflects off of its star. A coronagraph uses masks inside telescopes to block the diffracted light from a star. The planet's reflected light is often very dim, which makes it hard to detect. 
+								<h3>Exoplanet Orbits</h3>
+
+								<h4> Statistical Study of Planet Populations </h4>
+
+							<p> Using astrometry and radial velocitiy measurements of directly imaged exoplanets, it is possible to fit for these planets' orbits in order to constrain their orbital parameters. However, many of these planets have long periods, which means that we have a low phase coverage of their orbital arcs. This low coverage can lead to biases in their parameters from the orbit fits. I use observable-based priors - a new approach to orbit fitting which aims to reduce the parameter bias in low phase coverage orbits - to analyze the eccentricity of exoplanets at a population level. Understanding the eccentricity distributions of exoplanets can shed light on how they were formed. </p>
+
+
+						    <span class="image main"><img src="images/hd1160sys.png" alt="" /> <figcaption>The HD 1160 system, a star system with two companions. </figcaption></span>
+
+
+						    <h4> Stability of Exoplanet Systems </h4>
+
+						    <p>Using astrometry for orbit fits and N-Body simulations, I am interested in constraining the stability of exoplanet systems. One system I am currently studying is HR 8799, the only directly imaged system with 4 gas giants. The HR 8799 system planets are believed to be coplanar and in 1:2:4:8 mean-motion resonance (MMR). Understanding the dynamics of exoplanet systems becomes important for understanding their formation as well as the long-term stability as new candidate planets are imaged in multiple-planet systems.
+
 						    <span class="image main"><img src="images/pic04.gif" alt="" /> <figcaption>Direct imaging of the HR8799 System. Credit: Jason Wang/Christian Marois. </figcaption></span>
-						    <h3> Instruments and Adaptive Optics </h3>
-						    <p>Currently, many of our observations for exoplanet detection are ground based (our Telescopes are on Earth and not in space). This means that the Earth's atmosphere can interfere on our images due to its turbulence. The atmosphere severely limits the power of large telescopes, because it distorts the incoming light (called a wavefront), generating something called wavefront error. This limitation led astronomers to develop a technology called adaptive optics, which uses deformable mirrors to correct the turbulences introduced by the Earth's atmosphere (or correct for the wavefront error). The adaptive optics technology is constantly being improved, and is essential for ground based instruments that are searching for exoplanets. </p>
-						     <span class="image main"><img src="images/pic06.jpg" alt="" /> <figcaption>"How Adaptive Optics Works". Credit: John Hardy for Scientific American, 1994. </figcaption></span>
+
+
+						  <h3>Instrumentation</h3>
+
+
+						    <h4> GPI 2.0  </h4>
+						    <p>Currently, many of our observations for exoplanet detection are ground based (our Telescopes are on Earth and not in space). This means that the Earth's atmosphere can interfere on our images due to its turbulence. The atmosphere severely limits the power of large telescopes, because it distorts the incoming light (called a wavefront), generating something called wavefront error. This limitation led astronomers to develop a technology called adaptive optics (AO), which uses deformable mirrors to correct the turbulences introduced by the Earth's atmosphere (or correct for the wavefront error). The adaptive optics technology is constantly being improved, and is essential for ground based instruments that are searching for exoplanets. I am working on the upgrade of the Gemini Planet Imager's (GPI) wavefront sensor. The upgrade involves building and testing a pyramid wavefront sensor. I have built the test source unit (TSU) for the wavefront sensor, which will allow us to test for the system's alignment. I am also going to test the wavefront sensor's detector, an EMCCD camera. GPI 2.0 will be assembled and installed at Gemini North. </p>
+
+						     <span class="image main"><img src="images/tsuimg.jpg" alt="" /> <figcaption> The Test Source Unit (TSU) for GPI 2.0's new wavefront sensor in our cleanroom after being assembled. </figcaption></span>
 
 							</article>
 
 						<!-- About -->
-							<article id="about">
+							<article id="resources">
 								<h2 class="major">Resources</h2>
 								<h3> NSF Graduate Research Fellowship </h3>
 								<p> The National Science Foundation Fellowship is a graduate fellowship which awards graduate students in STEM fields in the United States. The grant covers 3 years of stipend during a 5 year period. 
@@ -113,9 +119,6 @@
 								<p> Some great resources on the essays and more information, which I used when I was applying, were <a href="https://astrobarker.github.io/fellowships.html">Brandon Barker's website</a>, 
 							<a href="http://www.malloryladd.com/nsf-grfp-advice.html">Mallory Ladd's website</a> and <a href="https://www.alexhunterlang.com/nsf-fellowship">Alex Lang's website</a>. </p>  
 				
-					 <h3> Astrobites & Astropontos </h3>
-								<p> <a href="https://astrobites.org/">Astrobites</a> is a website where graduate students from all over the world post summaries of astrophysics papers from arXiv. The website also includes posts on outreach, scholarships, diversity in astronomy and more. </p>
-								<p>I am joining Astrobites in 2022 as an author. I am also joining <a href="https://astropontos.org/">Astropontos</a>, its sister website in Portuguese. </p>
 				                        <h3> AstroTech </h3>
 				<p> <a href="https://isee-telescope-workforce.org/astrotech/">AstroTech</a> is a summer workshop on astronomy instrumentation. The first AstroTech happened in July 2021 at UC Berkeley, and I was glad to be a student participant. During one week, undergraduate and graduate students learn more about the concepts of a spectrograph, and get split into teams to build a spectrograph from scratch! </p>
 				<p>Each team member is placed under a specialist group to work on different parts of the spectrograph. My team built AT-AT (AstroTech ATmospheric spectrograph), a low resolution spectrograph which can detect TiO, Na and K on exoplanet atmospheres. I was part of the electronics group and got to wire and program the moving stages for the detector and filter of our spectrograph. </p>
@@ -123,6 +126,20 @@
 				
 				</article>
 				
+
+						<article id="outreach">
+						<h2 class="major">Outreach</h2>
+						<h3> Astrobites & Astropontos </h3>
+						<p> <a href="https://astrobites.org/">Astrobites</a> is a website where graduate students from all over the world post summaries of astrophysics papers from arXiv. The website also includes posts on outreach, scholarships, diversity in astronomy and more. </p>
+						<p>I joined Astrobites in 2022 as an author. I am also joining <a href="https://astropontos.org/">Astropontos</a>, its sister website in Portuguese. </p>
+
+						<h3> Cosmic Tours </h3>
+						<p> <a href="https://oirlab.ucsd.edu/planetarium.html">The UCSD Cosmic Tours</a> are short planetarium shows given on a portable planetarium for K-12 schools and other outreach events. In the shows, spectators can travel across the Solar System and beyond to learn more about our Universe. I currently volunteer for Cosmic Tours.
+
+						<h3> Young Scientists Club </h3>
+						<p> <a href="http://koslover.ucsd.edu/YSC.html">The Young Scientists Club</a> is a series of science lectures and experiments for kids grades 3-6. The students participate in hands-on experiments on optics, fluid properties and more as they learn more about the physics concepts behind the experiments. I currently volunteer for the Young Scientists Club.
+		
+				</article>			
 				
 						<!-- Contact -->
 							<article id="contact">

@@ -73,6 +73,27 @@
 			}
 		}
 
+		&.research-plot {
+			&:before {
+				display: none;
+			}
+
+			> a {
+				display: block;
+				border-bottom: 0;
+			}
+
+			img {
+				height: auto;
+			}
+
+			figcaption {
+				margin-top: 0.75rem;
+				font-size: 0.9rem;
+				line-height: 1.5;
+			}
+		}
+
 		@include breakpoint('<=small') {
 			&.main {
 				margin: (_size(element-margin) * 1) 0;

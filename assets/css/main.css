@@ -704,6 +704,25 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.research-plot:before {
+			display: none;
+		}
+
+		.image.research-plot > a {
+			display: block;
+			border-bottom: 0;
+		}
+
+		.image.research-plot img {
+			height: auto;
+		}
+
+		.image.research-plot figcaption {
+			margin-top: 0.75rem;
+			font-size: 0.9rem;
+			line-height: 1.5;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
